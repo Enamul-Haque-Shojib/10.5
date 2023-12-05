@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is filter page</h1>
+    
+    <h1>{{"January - February - March" | cut:"-"}}</h1>
+    <h1>{{'christmas' | capfirst}}</h1>
+    <h1>{{"Python is Fun" | cut:" "}}</h1>
+    <h1>{{"January - February - March" | cut:"-"}}</h1>
+    <h1>{{"Welcome" | length}}</h1>
+    <h1>{{'I Am Master Yoda' | lower}}</h1>
+    <h1>{{'Happy coding!' | upper}}</h1>
+    <h1>{{'Django rest framework' | title}}</h1>
+    <h1>{{'Happy coding' | truncatechars:6}}</h1>
+    <h1>{{'Happy coding' | wordcount}}</h1>
+    <h1>{{'You can do a lot of modifications with template filters' | wordcount}}</h1>
+    <h1>{{"Better days ahead!" | truncatewords:2}}</h1>
+</body>
+</html>
